@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49DC3BA729DAAEF900040106 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC3BA629DAAEF900040106 /* ViewController2.swift */; };
+		49DC3BAD29DAB69700040106 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC3BAC29DAB69700040106 /* MyTableViewCell.swift */; };
 		49E84C8329D6B827007580EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E84C8229D6B827007580EB /* AppDelegate.swift */; };
 		49E84C8529D6B827007580EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E84C8429D6B827007580EB /* SceneDelegate.swift */; };
 		49E84C8729D6B827007580EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E84C8629D6B827007580EB /* ViewController.swift */; };
 		49E84C8A29D6B827007580EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E84C8829D6B827007580EB /* Main.storyboard */; };
 		49E84C8C29D6B828007580EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E84C8B29D6B828007580EB /* Assets.xcassets */; };
 		49E84C8F29D6B828007580EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E84C8D29D6B828007580EB /* LaunchScreen.storyboard */; };
+		49E84C9929D6C0D1007580EB /* SqliteHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E84C9829D6C0D1007580EB /* SqliteHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49DC3BA629DAAEF900040106 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		49DC3BAC29DAB69700040106 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		49E84C7F29D6B827007580EB /* SqliteDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqliteDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E84C8229D6B827007580EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49E84C8429D6B827007580EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		49E84C8B29D6B828007580EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49E84C8E29D6B828007580EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49E84C9029D6B828007580EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E84C9829D6C0D1007580EB /* SqliteHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				49E84C8429D6B827007580EB /* SceneDelegate.swift */,
 				49E84C8629D6B827007580EB /* ViewController.swift */,
 				49E84C8829D6B827007580EB /* Main.storyboard */,
+				49DC3BAC29DAB69700040106 /* MyTableViewCell.swift */,
+				49E84C9829D6C0D1007580EB /* SqliteHelper.swift */,
+				49DC3BA629DAAEF900040106 /* ViewController2.swift */,
 				49E84C8B29D6B828007580EB /* Assets.xcassets */,
 				49E84C8D29D6B828007580EB /* LaunchScreen.storyboard */,
 				49E84C9029D6B828007580EB /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DC3BA729DAAEF900040106 /* ViewController2.swift in Sources */,
 				49E84C8729D6B827007580EB /* ViewController.swift in Sources */,
 				49E84C8329D6B827007580EB /* AppDelegate.swift in Sources */,
 				49E84C8529D6B827007580EB /* SceneDelegate.swift in Sources */,
+				49E84C9929D6C0D1007580EB /* SqliteHelper.swift in Sources */,
+				49DC3BAD29DAB69700040106 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
